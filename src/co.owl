@@ -1,0 +1,802 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#"
+     xml:base="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:academicTerm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:academicTerm">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:specificTime"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:beHeldIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:beHeldIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:partOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:cost -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:cost">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Management"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:eventOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:eventOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:partOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:hasFlowLineToCoop -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:hasFlowLineToCoop">
+        <rdfs:range rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Geometry"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:hasLife -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:hasLife">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:StudentLife"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:hasTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:hasTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:specificTime"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:TimeInterval30m"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:inDetail -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:inDetail">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:ParkedBicycle"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:ParkedBicycle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:memberOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:memberOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:partOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:partOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:partOf">
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:period -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:period">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:specificTime"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:room -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:room">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Room"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:specificTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:specificTime">
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#Interval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:subject -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:subject">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:weatherState -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:weatherState">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#wo:Weatherstate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#event:place -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#event:place">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Facility"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#gn:nearby -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#gn:nearby">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Facility"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Facility"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#wo:hasWeatherphenomenon -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#wo:hasWeatherphenomenon">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#wo:Precipitation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#wo:Temperature"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#type -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#subClassOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#hasGeometry -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#hasGeometry">
+        <rdfs:range rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Geometry"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#day -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#day">
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#GeneralDateTimeDescription"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#dayofWeek -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#dayofWeek">
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#GeneralDateTimeDescription"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#DayOfWeek"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasBeginning -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#hasBeginning">
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#Instant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasEnd -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#hasEnd">
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#Instant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalAfter -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalAfter">
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalContains -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalContains">
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalMeets -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalMeets">
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalOverlappedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalOverlappedBy">
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#monthOfYear -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#monthOfYear">
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#GeneralDateTimeDescription"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#MonthOfYear"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#year -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#year">
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#GeneralDateTimeDescription"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:amountOfMoney -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:amountOfMoney">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:sales"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:aveSpendingPerCustomer -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:aveSpendingPerCustomer">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:sales"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:capacity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:capacity">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:lunchBoxSales -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:lunchBoxSales">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:numberOf"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:numberOf -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:numberOf">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:numberOfBicycles -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:numberOfBicycles">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:numberOf"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:numberOfCustomers -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:numberOfCustomers">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:numberOf"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:sales -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:sales">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:usage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:usage">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#gn:population -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#gn:population">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#wgs_pos:lat -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#wgs_pos:lat">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#wgs_pos:long -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#wgs_pos:long">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#wo:hasIntensity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#wo:hasIntensity">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#wo:hasValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#wo:hasValue">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#asWKT -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#asWKT">
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Activity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Agent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Bicycle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Bicycle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Transportation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Building">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Facility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:CityGasUsage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:CityGasUsage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:EnergyUsage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:ClassRoom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:ClassRoom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Room"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Consumption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Consumption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Cooperative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Cooperative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Course -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Course">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:DesignedArtifact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:DesignedArtifact"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:EducationalInstitution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:EducationalInstitution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:EnergyUsage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:EnergyUsage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Consumption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Facility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Facility">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:FiscalYear -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:FiscalYear">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#Interval"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Management"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Observation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Observation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Organization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:ParkedBicycle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:ParkedBicycle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Bicycle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Parking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Parking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Facility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:PowerUsage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:PowerUsage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:EnergyUsage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:RemovedBicycle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:RemovedBicycle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Bicycle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Room -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Room">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:SchoolEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:SchoolEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Semester -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Semester">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#Interval"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Space -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Space"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Student">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:StudentLife -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:StudentLife"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:TimeInterval30m -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:TimeInterval30m">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#Interval"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Transportation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Transportation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:DesignedArtifact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:University -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:University">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:EducationalInstitution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:UniversityCooperative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:UniversityCooperative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:Cooperative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:classPeriod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#co:classPeriod">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#Interval"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#wo:Precipitation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#wo:Precipitation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#wo:Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#wo:Temperature"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#wo:Weatherstate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yutotsukagoshi/ontologies/2020/3/untitled-ontology-28#wo:Weatherstate"/>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#Feature -->
+
+    <owl:Class rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#Feature">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#Geometry -->
+
+    <owl:Class rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#Geometry">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#SpatialObject -->
+
+    <owl:Class rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialObject"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#DateTimeDescription -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#DateTimeDescription">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#GeneralDateTimeDescription"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#DayOfWeek -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#DayOfWeek"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#GeneralDateTimeDescription -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#GeneralDateTimeDescription"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Instant -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#Instant">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Interval -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#Interval">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#MonthOfYear -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#MonthOfYear"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#ProperInterval -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#ProperInterval">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#Interval"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TemporalEntity -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#TemporalEntity"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
